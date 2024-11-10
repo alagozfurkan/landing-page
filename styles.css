@@ -91,7 +91,61 @@ li {
 .thirdcontainer {
     border: solid rgb(65, 26, 238);
     flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
+
+.imgandtxtholder {
+    display: flex;
+    flex-direction: column;
+}
+
+.middletitle {
+    text-align: start;
+}
+
+.imageholder {
+    display: flex;
+    gap: 50px;
+}
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid #337ef7;
+    width: 120px;
+    height: 120px;
+}
+    
+
+.imagetexts {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.iltext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid #3882f6;
+    width: 120px;
+    height: 70px;
+    margin: 0;
+    
+}
+
+
+
+
+
+
+
 
 .forthcontainer {
     border: solid greenyellow;
