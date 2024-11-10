@@ -1,5 +1,5 @@
 body {
-    border: solid black;
+    
     height: 1500px;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,6 @@ body {
 }
 
 .firstcontainer {
-    border: solid blueviolet;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -42,7 +41,7 @@ li {
 }
 
 .secondcontainer {
-    border: solid red;
+    
     flex: 6;
     display: flex;
     flex-direction: row;
@@ -89,7 +88,7 @@ li {
 }
 
 .thirdcontainer {
-    border: solid rgb(65, 26, 238);
+    
     flex: 6;
     display: flex;
     justify-content: center;
@@ -160,7 +159,7 @@ li {
 
 
 .forthcontainer {
-    border: solid greenyellow;
+    
     flex: 6;
     display: flex;
     flex-direction: column;
@@ -187,11 +186,52 @@ li {
 }
 
 .fifthcontainer {
-    border: solid goldenrod;
+    
     flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluecontainer {
+    border-radius: 10px;
+    background-color: #3882f6;
+    height: 130px;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.calltitle {
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.calltext {
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.footerbutton {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: white;
+    padding: 3px;
+    color: white;
+    width: 90px;
 }
 
 .sixthcontainer {
-    border: solid teal;
+    
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 14px;
 }
