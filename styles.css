@@ -11,9 +11,10 @@ body {
     border: solid blueviolet;
     flex: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
+    gap: 380px;
 
 }
 
@@ -43,6 +44,48 @@ li {
 .secondcontainer {
     border: solid red;
     flex: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #1f2937;
+}
+
+.secondcontainerleft {
+    
+    width: 400px;
+}
+
+.secondcontainerleft .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.secondcontainerleft .secondarytext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.secondcontainerleft button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #3882f6;
+    padding: 3px;
+    color: #f9faf8;
+    width: 80px;
+}
+
+.placeholder {
+    height: 200px;
+    width: 450px;
+    background-color: rgb(145, 142, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
 
 .thirdcontainer {
