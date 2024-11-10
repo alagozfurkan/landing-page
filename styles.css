@@ -1,0 +1,36 @@
+body {
+    border: solid black;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstcontainer {
+    border: solid blueviolet;
+    flex: 1;
+}
+
+.secondcontainer {
+    border: solid red;
+    flex: 6;
+}
+
+.thirdcontainer {
+    border: solid rgb(65, 26, 238);
+    flex: 6;
+}
+
+.forthcontainer {
+    border: solid greenyellow;
+    flex: 6;
+}
+
+.fifthcontainer {
+    border: solid goldenrod;
+    flex: 5;
+}
+
+.sixthcontainer {
+    border: solid teal;
+    flex: 1;
+}
