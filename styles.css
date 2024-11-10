@@ -101,15 +101,22 @@ li {
 .imgandtxtholder {
     display: flex;
     flex-direction: column;
+    gap: 3px;
 }
 
 .middletitle {
-    text-align: start;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    
 }
 
 .imageholder {
     display: flex;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+
 }
 
 
@@ -120,22 +127,27 @@ li {
     border:solid #337ef7;
     width: 120px;
     height: 120px;
+    border-radius: 10px;
 }
     
 
 .imagetexts {
     display: flex;
     gap: 50px;
+    color: #1f2937;
+    font-size: 12px;
+    
+    
     
 }
 
 .iltext {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border:solid #3882f6;
     width: 120px;
-    height: 70px;
+    height: 60px;
     margin: 0;
     
 }
@@ -150,6 +162,28 @@ li {
 .forthcontainer {
     border: solid greenyellow;
     flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    width: 780px;
+    margin: 0;
+
+}
+
+.Thor {
+    margin: 0;
+    margin-left: 500px;
+    color:solid #1f2937;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .fifthcontainer {
